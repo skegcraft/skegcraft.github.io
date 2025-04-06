@@ -1,3 +1,12 @@
+body {
+    background-color: #242424;
+    font-family: sans-serif;
+    color: white;
+}
+
+.content a, .title {color: lightblue;}
+.content a:visited {color: #719aa6;}
+
 #main {
 	width: 50%;
 	height: 100px;
@@ -20,12 +29,10 @@
 .button {
 	margin: 10px;
 	padding: 10px 20px;
-	border: 1px solid black;
 	display: inline-block;
 	text-decoration: none;
 	color: black;
 	background: lightgray;
-	border-radius: 5px;
 }
 
 h1 {
@@ -56,7 +63,7 @@ h1 {
 
 #ip {
 	padding: 10px 20px;
-	border: 1px dotted black;
+	border: 1px dotted white;
 	text-align: center;
 	font-size: larger;
 	cursor: pointer;
